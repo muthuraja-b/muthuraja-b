@@ -105,8 +105,8 @@
       media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/github-contribution-grid-snake.svg">
     <img
-      alt="GitHub Contribution Snake"
       src="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/github-contribution-grid-snake.svg"
+      alt="Contribution Snake"
       width="100%">
   </picture>
 </p>
