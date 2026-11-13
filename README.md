@@ -84,23 +84,22 @@
 
 ---
 
+
 ## 📊 GitHub Statistics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=muthuraja-b&show_icons=true&theme=tokyonight&hide_border=true" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=muthuraja-b&show_icons=true&theme=tokyonight&hide_border=true" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthuraja-b&layout=compact&theme=tokyonight&hide_border=true" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthuraja-b&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
-
----
 
 ## 🐍 Contribution Graph
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/snake.svg" width="100%" alt="Contribution Snake" />
 
 </div>
 
