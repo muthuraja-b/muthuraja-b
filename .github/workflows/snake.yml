@@ -18,38 +18,35 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: muthuraja-b
-          outputs: dist/snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Fix file permissions
-        run: |
-          sudo chown -R "$(id -u):$(id -g)" dist
-          chmod u+rw dist/snake.svg
-
-      - name: Slow down snake animation
+      - name: Slow down animation
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import re
 
-          path = Path("dist/snake.svg")
-          svg = path.read_text()
+          for path in Path("dist").glob("*.svg"):
+              svg = path.read_text()
 
-          svg, count = re.subn(
-              r'(\d+(?:\.\d+)?)ms',
-              lambda m: f'{float(m.group(1)) * 4:g}ms',
-              svg
-          )
+              svg, count = re.subn(
+                  r'(dur=")([0-9.]+)(ms|s)(")',
+                  lambda m: (
+                      m.group(1)
+                      + str(float(m.group(2)) * 2)
+                      + m.group(3)
+                      + m.group(4)
+                  ),
+                  svg
+              )
 
-          if count == 0:
-              raise SystemExit("Animation duration not found!")
-
-          path.write_text(svg)
-
-          print(f"Successfully slowed {count} animations.")
-
+              path.write_text(svg)
+              print(f"{path}: updated {count} animation durations")
           PY
 
-      - name: Deploy Snake Animation
+      - name: Deploy Snake
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
