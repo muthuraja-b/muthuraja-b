@@ -12,11 +12,35 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - uses: Platane/snk@v3
         with:
           github_user_name: muthuraja-b
           outputs: dist/snake.svg
+
+      - name: Slow down snake animation
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("dist/snake.svg")
+          svg = path.read_text()
+
+          svg, count = re.subn(
+              r'(\d+(?:\.\d+)?)ms',
+              lambda m: f'{float(m.group(1)) * 4:g}ms',
+              svg
+          )
+
+          if count == 0:
+              raise SystemExit("Animation duration not found!")
+
+          path.write_text(svg)
+          print(f"Updated {count} animation durations.")
+
+          PY
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
