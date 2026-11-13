@@ -97,12 +97,22 @@
 </p>
 
 
-<h2 align="center">🐍 My Custom Snake Animation</h2>
+<h2 align="center">🐍 Contribution Activity</h2>
 
 <p align="center">
-  <img src="./custom-snake.svg" width="100%" alt="Custom Snake Animation"/>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/github-contribution-grid-snake-dark.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/github-contribution-grid-snake.svg">
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/muthuraja-b/muthuraja-b/output/github-contribution-grid-snake.svg"
+      width="100%">
+  </picture>
 </p>
-
 ---
 
 ## 🤝 Connect With Me
