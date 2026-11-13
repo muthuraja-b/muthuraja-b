@@ -13,7 +13,7 @@
 
 </div>
 
----
+
 
 ## 👨‍💻 About Me
 
@@ -24,7 +24,7 @@
 - 🎯 Focused on building scalable and user-friendly applications.
 - 📍 Chennai, Tamil Nadu, India.
 
----
+
 
 ## 🛠️ Technical Skills
 
@@ -56,7 +56,7 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
 
----
+
 
 ## 🚀 Featured Projects
 
@@ -81,9 +81,6 @@
 ### 🖼️ Residual Fusion Compression Framework
 - Implemented image compression using Huffman coding.
 - Integrated AES encryption and LSB steganography.
-
----
-
 
 
 
@@ -113,7 +110,7 @@
       width="100%">
   </picture>
 </p>
----
+
 
 ## 🤝 Connect With Me
 
