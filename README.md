@@ -87,11 +87,13 @@
 
 
 
-<h2 align="center">📊 GitHub Statistics</h2>
+<h2 align="center">🔥 GitHub Contribution Streak</h2>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=muthuraja-b&show_icons=true&theme=tokyonight&hide_border=true" height="180" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=muthuraja-b&layout=compact&theme=tokyonight&hide_border=true" height="180" />
+  <img
+    src="https://streak-stats.demolab.com/?user=muthuraja-b&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak Stats"
+  />
 </p>
 
 
