@@ -85,16 +85,14 @@
 ---
 
 
-## 📊 GitHub Statistics
 
-<div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=muthuraja-b&show_icons=true&theme=tokyonight&hide_border=true" />
+<h2 align="center">📊 GitHub Statistics</h2>
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthuraja-b&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=muthuraja-b&show_icons=true&theme=tokyonight&hide_border=true" height="180" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=muthuraja-b&layout=compact&theme=tokyonight&hide_border=true" height="180" />
+</p>
 
 
 <h2 align="center">🐍 My Custom Snake Animation</h2>
